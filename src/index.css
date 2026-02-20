@@ -1,0 +1,170 @@
+@import './fonts.css';
+
+:root {
+  --font-family: "Onest", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Sora", sans-serif;
+  --fon-gray: var(--base-100);
+	--fon-white: var(--base-00);
+	--success: #61d49a;
+	--base-700: #314158;
+	--base-500: #62748e;
+	--base-400: #90a1b9;
+	--base-300: #cad5e2;
+	--base-200: #e2e8f0;
+	--base-600: #45556c;
+	--base-00: #fff;
+	--base-950: #020618;
+	--base-900: #0f172b;
+	--base-100: #f1f5f9;
+	--base-800: #1d293d;
+	--base-50: #f8fafc;
+	--button-fon-button-disable: var(--base-200);
+	--button-border-button-border-disabled: var(--base-200);
+	--button-fon-button-dark-hover: var(--base-900);
+	--button-border-button-dark-border: var(--base-400);
+	--button-text-button-text-light: var(--base-00);
+	--button-text-button-text-disabled: var(--base-400);
+	--button-fon-button-dark: var(--base-950);
+	--button-text-button-text-dark: var(--base-950);
+	--error: #e84142;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button;
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  appearance: textfield;
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+svg * {
+  transition-property: fill, stroke;
+}
+
+::-webkit-scrollbar {
+  width: 3px; 
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--base-900);
+  border-radius: 20px;
+  height: 51px; 
+}
